@@ -8,7 +8,8 @@
 
 
 LocationHelper.startWith(this).lastKnownLocation{lastLocation->
- //null check for last location
+
+//null check for last location
  lastLocation?.let {
         
         //here you found your last location
